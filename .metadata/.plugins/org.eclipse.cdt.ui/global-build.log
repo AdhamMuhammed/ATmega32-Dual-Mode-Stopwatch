@@ -1,0 +1,362 @@
+20:39:01 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11542 bytes (35.2% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:45:55 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Building file: ../Project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Project2.d" -MT"Project2.o" -c -o "Project2.o" "../Project2.c"
+In file included from ../Project2.c:3:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Project2.c
+ 
+Building target: Project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Project2.map -mmcu=atmega32 -o "Project2.elf"  ./Project2.o   
+Finished building target: Project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Project2.elf  >"Project2.lss"
+Finished building: Project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5018 bytes (15.3% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:45:59 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5018 bytes (15.3% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:47:45 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Building file: ../Project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Project2.d" -MT"Project2.o" -c -o "Project2.o" "../Project2.c"
+In file included from ../Project2.c:7:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Project2.c
+ 
+Building target: Project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Project2.map -mmcu=atmega32 -o "Project2.elf"  ./Project2.o   
+Finished building target: Project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Project2.elf  >"Project2.lss"
+Finished building: Project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7268 bytes (22.2% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:48:22 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Building file: ../Project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Project2.d" -MT"Project2.o" -c -o "Project2.o" "../Project2.c"
+In file included from ../Project2.c:7:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Project2.c
+ 
+Building target: Project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Project2.map -mmcu=atmega32 -o "Project2.elf"  ./Project2.o   
+Finished building target: Project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Project2.elf  >"Project2.lss"
+Finished building: Project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11542 bytes (35.2% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:52:13 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Building file: ../Project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Project2.d" -MT"Project2.o" -c -o "Project2.o" "../Project2.c"
+In file included from ../Project2.c:7:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Project2.c
+ 
+Building target: Project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Project2.map -mmcu=atmega32 -o "Project2.elf"  ./Project2.o   
+Finished building target: Project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Project2.elf  >"Project2.lss"
+Finished building: Project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6026 bytes (18.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:52:14 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6026 bytes (18.4% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:55:28 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Building file: ../Project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Project2.d" -MT"Project2.o" -c -o "Project2.o" "../Project2.c"
+In file included from ../Project2.c:7:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Project2.c
+ 
+Building target: Project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Project2.map -mmcu=atmega32 -o "Project2.elf"  ./Project2.o   
+Finished building target: Project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Project2.elf  >"Project2.lss"
+Finished building: Project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11542 bytes (35.2% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:55:29 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11542 bytes (35.2% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:55:49 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11542 bytes (35.2% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:01:52 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Building file: ../Project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Project2.d" -MT"Project2.o" -c -o "Project2.o" "../Project2.c"
+In file included from ../Project2.c:7:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Project2.c
+ 
+Building target: Project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Project2.map -mmcu=atmega32 -o "Project2.elf"  ./Project2.o   
+Finished building target: Project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Project2.elf  >"Project2.lss"
+Finished building: Project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6206 bytes (18.9% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:01:53 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6206 bytes (18.9% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:02:53 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Building file: ../Project2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"Project2.d" -MT"Project2.o" -c -o "Project2.o" "../Project2.c"
+In file included from ../Project2.c:7:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../Project2.c
+ 
+Building target: Project2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Project2.map -mmcu=atmega32 -o "Project2.elf"  ./Project2.o   
+Finished building target: Project2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Project2.elf  >"Project2.lss"
+Finished building: Project2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11542 bytes (35.2% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:02:54 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Project2.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   11542 bytes (35.2% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:32:25 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/Harveeyy/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.1.v20241024-1700/jre/bin/server;C:/Users/Harveeyy/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.1.v20241024-1700/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\mingw64\bin;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\Git\cmd;C:\Users\Harveeyy\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Harveeyy\AppData\Local\Programs\Python\Python313\;C:\Users\Harveeyy\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Harveeyy\AppData\Local\Programs\Python\Python312\;C:\Users\Harveeyy\AppData\Local\Microsoft\WindowsApps;C:\Users\Harveeyy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Harveeyy\AppData\Local\spicetify;C:\Users\Harveeyy\.dotnet\tools;D:\Standard Embedded\4.Micro-controller Interfacing I\Project stop\stopwatch\project2\Project2]
+15:32:26 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/Harveeyy/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.1.v20241024-1700/jre/bin/server;C:/Users/Harveeyy/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.1.v20241024-1700/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\mingw64\bin;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\Git\cmd;C:\Users\Harveeyy\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Harveeyy\AppData\Local\Programs\Python\Python313\;C:\Users\Harveeyy\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Harveeyy\AppData\Local\Programs\Python\Python312\;C:\Users\Harveeyy\AppData\Local\Microsoft\WindowsApps;C:\Users\Harveeyy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Harveeyy\AppData\Local\spicetify;C:\Users\Harveeyy\.dotnet\tools;D:\Standard Embedded\4.Micro-controller Interfacing I\Project stop\stopwatch\project2\Project2]
